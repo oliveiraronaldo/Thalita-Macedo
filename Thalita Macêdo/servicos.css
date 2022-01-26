@@ -1,67 +1,32 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 body{
     padding: 0;
     margin: 0;
-    /* height: 2000px; */
+    height: 2000px;
 }
 .cabeçalho{
-    position: sticky;
+    position: fixed;
     width: 100%;
-    padding: 5px 0 15px 0;
-    /* height: 75px; */
+    padding: 5px 0 5px 0;
+    height: fit-content;
     background-color: rgb(53,53,53);
     border-radius: 0 0 10px 10px;
     margin-bottom: -10px;
 }
 .logoimg{
-    display: inline-block;
-    /* position: fixed; */
+    
+    margin: auto;
     width: fit-content;
-    /* background-color: red; */
 }
-.logoname{
-    position: absolute;
-    right: 50%;
-    transform: translateX(50%);
-    display: inline-block;
-    margin-right: auto;
-    width: fit-content;
-    /* background-color: chartreuse; */
-    
-    
-}
-.menu{
-    position: absolute;
-    right: 15px;
-    top: 0;
-
-    /* display: inline-block; */
-    /* float: right; */
-    /* background-color: cadetblue; */
-    
-}
-
 #logo{
     height: 40px;
-    /* padding: 10px; */
 }
-#logoname{
-    width: 200px; 
-    margin: auto;   
-}
-.contato{
-    font-size: 15px;
-    font-weight: 100;
-    color: rgb(212, 207, 207);
-    /* display: inline-block; */
-
-}
-.section1-container{
-    padding: 50px 0 0 0;
+#section1-container{
+    padding: 100px 0 0 0;
     background-color: rgb(121, 121, 121);
-    border-radius: 0 0 10px 20px;
 
 }
 .presentation{
@@ -70,25 +35,20 @@ body{
     padding: 0;
 }
 .picthalita{
-    /* display: inline-block; */
     margin: auto;
     width: fit-content;
 }
 .title{
-    /* display: inline-block; */
-    padding: 10px 0 50px 0px;
+    margin: auto;
+    width: fit-content;
 }
 #thalita{
     width: 200px;
     border-radius: 50%;
 }
-.name{
-    color: white;
-    text-align: center;
-    font-weight: 500;
-    font-size: 1.5em;
-    padding: 0;
-    margin: 0;
+#logoname{
+    width: 300px;
+    padding: 10px 0 30px 0;
 }
 .subname{
     color: white;
@@ -98,4 +58,8 @@ body{
     padding: 0;
     margin: 0;
 }
+#teste{
+    background-color: rosybrown;
+    height: 1000px;
 
+}
