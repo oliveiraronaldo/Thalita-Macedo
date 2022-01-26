@@ -1,0 +1,65 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+body{
+    padding: 0;
+    margin: 0;
+    height: 2000px;
+}
+.cabeçalho{
+    position: fixed;
+    width: 100%;
+    padding: 5px 0 5px 0;
+    height: fit-content;
+    background-color: rgb(53,53,53);
+    border-radius: 0 0 10px 10px;
+    margin-bottom: -10px;
+}
+.logoimg{
+    
+    margin: auto;
+    width: fit-content;
+}
+#logo{
+    height: 40px;
+}
+#section1-container{
+    padding: 100px 0 0 0;
+    background-color: rgb(121, 121, 121);
+
+}
+.presentation{
+    width: fit-content;
+    margin: auto;
+    padding: 0;
+}
+.picthalita{
+    margin: auto;
+    width: fit-content;
+}
+.title{
+    margin: auto;
+    width: fit-content;
+}
+#thalita{
+    width: 200px;
+    border-radius: 50%;
+}
+#logoname{
+    width: 300px;
+    padding: 10px 0 30px 0;
+}
+.subname{
+    color: white;
+    text-align: center;
+    font-weight: 100;
+    font-size: 1em;
+    padding: 0;
+    margin: 0;
+}
+#teste{
+    background-color: rosybrown;
+    height: 1000px;
+
+}
